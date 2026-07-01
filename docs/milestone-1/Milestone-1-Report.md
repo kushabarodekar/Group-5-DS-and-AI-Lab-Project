@@ -464,6 +464,10 @@ To avoid such false alerts, the system will use a short time window. If fatigue 
 
 The evaluation plan defines how the performance of the drowsiness detection system will be measured, validated, and tested. Since the system is safety-related, evaluation should not focus only on accuracy. It should also consider how well the system distinguishes real drowsiness from normal behavior, how quickly it responds, and how it performs under different conditions.
 
+![Evaluation Metrics Overview](images/evaluation-metrics-overview.png)
+
+*Figure: Evaluation metrics considered for the AI-powered driver drowsiness detection system.*
+
 ### 12.1 Precision
 
 **Formula:** `Precision = TP / (TP + FP)`
@@ -597,7 +601,7 @@ We confirm that the work submitted for Milestone 1 has been discussed, reviewed,
 | ------: | ---------------- | ------------------------------------------------------------------ | ------------------ |
 |       1 | Kushagra         | Problem Definition, Motivation, Scope, Stakeholders, Documentation | Kushagra Barodekar |
 |       2 | Shiwani          | Dataset Research and Dataset Understanding                         |                    |
-|       3 | Sohin            | Literature Review: Rule-Based and MediaPipe/OpenCV Methods         |                    |
+|       3 | Sohini           | Literature Review: Rule-Based and MediaPipe/OpenCV Methods         |                    |
 |       4 | Shubham          | Literature Review: Deep Learning and YOLO-Based Methods            |                    |
 |       5 | Ravina           | Evaluation Plan and Metrics                                        | ravina             |
 
