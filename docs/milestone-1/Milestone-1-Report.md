@@ -493,6 +493,7 @@ Mean Average Precision is used for evaluating the YOLO object detection componen
 ### 12.5 FPS
 
 FPS means Frames Per Second. It measures how many video frames the system can process per second. Since this is a real-time system, FPS is important. A model with good accuracy but very low FPS may not be useful because the alert may come too late.
+FPS evaluation will be implemented as an optional enhancement, subject to time availability and system resource constraints. Given that FPS measurement requires real-time video stream processing and adequate hardware capability, this component will be prioritized only after the core detection/alert functionality is completed and validated."
 
 ### 12.6 False Alarm Rate
 
@@ -598,7 +599,7 @@ We confirm that the work submitted for Milestone 1 has been discussed, reviewed,
 |       2 | Shiwani          | Dataset Research and Dataset Understanding                         |                    |
 |       3 | Sohin            | Literature Review: Rule-Based and MediaPipe/OpenCV Methods         |                    |
 |       4 | Shubham          | Literature Review: Deep Learning and YOLO-Based Methods            |                    |
-|       5 | Ravina           | Evaluation Plan and Metrics                                        |                    |
+|       5 | Ravina           | Evaluation Plan and Metrics                                        | ravina             |
 
 ---
 
