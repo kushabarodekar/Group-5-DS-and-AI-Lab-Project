@@ -599,11 +599,11 @@ We confirm that the work submitted for Milestone 1 has been discussed, reviewed,
 
 | Sr. No. | Team Member Name | Responsibility                                                     | Signature          |
 | ------: | ---------------- | ------------------------------------------------------------------ | ------------------ |
-|       1 | Kushagra         | Problem Definition, Motivation, Scope, Stakeholders, Documentation | Kushagra Barodekar |
-|       2 | Shiwani          | Dataset Research and Dataset Understanding                         |                    |
-|       3 | Sohini           | Literature Review: Rule-Based and MediaPipe/OpenCV Methods         |                    |
+|       1 | Kushagra         | Problem Definition, Motivation, Scope, Stakeholders, Documentation | ![Kushagra_Signature](images/Kushagra_Signature.jpg) |
+|       2 | Shiwani          | Dataset Research and Dataset Understanding                         |    ![Shiwani_Signature](images/Shiwani_signature.jpeg)                 |
+|       3 | Sohini           | Literature Review: Rule-Based and MediaPipe/OpenCV Methods         |  ![Sohini_Signature](images/SOHINI%20signature.jpg)  |
 |       4 | Shubham          | Literature Review: Deep Learning and YOLO-Based Methods            |                    |
-|       5 | Ravina           | Evaluation Plan and Metrics                                        | ravina             |
+|       5 | Ravina           | Evaluation Plan and Metrics                                        | ![Ravina_Signature](images/ravina_signature.jpeg)              |
 
 ---
 
