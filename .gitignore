@@ -216,3 +216,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Raw and large processed datasets
+data/raw/
+data/processed/
+
+# Large local video files
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.avi
+*.mkv
+
+# Local environment
+.venv/
+__pycache__/
+.DS_Store

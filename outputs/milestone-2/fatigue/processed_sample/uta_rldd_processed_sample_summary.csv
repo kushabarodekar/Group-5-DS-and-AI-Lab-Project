@@ -1,0 +1,37 @@
+fold,subject_id,split,project_class,video_file,frames_saved
+Fold1_part1,01,train,Safe,0.mov,5
+Fold1_part1,01,train,Caution,5.mov,5
+Fold1_part1,01,train,High Risk,10.MOV,5
+Fold1_part1,02,train,Safe,0.mov,5
+Fold1_part1,02,train,Caution,5.MOV,5
+Fold1_part1,02,train,High Risk,10.MOV,5
+Fold1_part1,03,train,Safe,0.MOV,5
+Fold1_part1,03,train,Caution,5.mov,5
+Fold1_part1,03,train,High Risk,10.mov,5
+Fold1_part1,04,train,Safe,0.mp4,5
+Fold1_part1,04,train,Caution,5.mp4,5
+Fold1_part1,04,train,High Risk,10.mp4,5
+Fold1_part1,05,train,Safe,0.MOV,5
+Fold1_part1,05,train,Caution,5.MOV,5
+Fold1_part1,05,train,High Risk,10.MOV,5
+Fold1_part1,06,train,Safe,0.mp4,5
+Fold1_part1,06,train,Caution,5.mp4,5
+Fold1_part1,06,train,High Risk,10.mp4,5
+Fold1_part2,07,train,Safe,0.mp4,5
+Fold1_part2,07,train,Caution,5.mp4,5
+Fold1_part2,07,train,High Risk,10.mp4,5
+Fold1_part2,08,train,Safe,0.mp4,5
+Fold1_part2,08,train,Caution,5.mp4,5
+Fold1_part2,08,train,High Risk,10.mp4,5
+Fold1_part2,09,val,Safe,0.mp4,5
+Fold1_part2,09,val,Caution,5.mp4,5
+Fold1_part2,09,val,High Risk,10.mp4,5
+Fold1_part2,10,val,Safe,0.MOV,5
+Fold1_part2,10,val,Caution,5.MOV,5
+Fold1_part2,10,val,High Risk,10.MOV,5
+Fold1_part2,11,test,Safe,0.mp4,5
+Fold1_part2,11,test,Caution,5.mp4,5
+Fold1_part2,11,test,High Risk,10.mp4,5
+Fold1_part2,12,test,Safe,0.mp4,5
+Fold1_part2,12,test,Caution,5.mp4,5
+Fold1_part2,12,test,High Risk,10.mp4,5
