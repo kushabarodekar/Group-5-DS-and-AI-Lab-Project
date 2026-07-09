@@ -1,0 +1,13 @@
+split,subject_id
+train,01
+train,02
+train,03
+train,04
+train,05
+train,06
+train,07
+train,08
+val,09
+val,10
+test,11
+test,12
