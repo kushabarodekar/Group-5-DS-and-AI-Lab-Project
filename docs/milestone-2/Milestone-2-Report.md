@@ -408,7 +408,7 @@ The processed datasets are hosted or prepared for hosting through Google Drive.
 |---|---|---|
 | Shiwani | Landmark Features | Google Drive link provided |
 | Kushagra | Video Fatigue Detection | Google Drive link provided |
-| Shubham | Driver Activity Classification | Link pending / to be updated |
+| Shubham | Driver Activity Classification | Google Drive link provided |
 | Sohini | Seat Belt and Phone Detection | Google Drive link provided |
 | Ravina | Smoking and Drinking Detection | Google Drive link provided |
 
