@@ -410,7 +410,7 @@ The processed datasets are hosted or prepared for hosting through Google Drive.
 | Kushagra | Video Fatigue Detection | https://drive.google.com/drive/folders/1d_QwgpMXnLY_FmLYXDn7TLcw0D-svXEl |
 | Shubham | Driver Activity Classification | [https://drive.google.com/drive/folders/1y92pQ918sTmLsfZALlRlJp84m1nYh1zO?usp=sharing](https://drive.google.com/drive/folders/1y92pQ918sTmLsfZALlRlJp84m1nYh1zO?usp=sharing) |
 | Sohini | Seat Belt and Phone Detection | [https://drive.google.com/file/d/1PXem7gp6sEWVlX7Vwn46NFPm5j1-G2y7/view?usp=sharing](https://drive.google.com/file/d/1PXem7gp6sEWVlX7Vwn46NFPm5j1-G2y7/view?usp=sharing) |
-| Ravina | Smoking and Drinking Detection | [https://drive.google.com/drive/folders/1v0PFbBx-Et2QJINfn0sghnSkBygL2OiD](https://drive.google.com/drive/folders/1v0PFbBx-Et2QJINfn0sghnSkBygL2OiD) |
+| Ravina | Smoking and Drinking Detection | [https://drive.google.com/file/d/1SfLJEKD8nUcoAIoR3m4iq5IRS2ohyrfD/view?usp=sharing](https://drive.google.com/file/d/1SfLJEKD8nUcoAIoR3m4iq5IRS2ohyrfD/view?usp=sharing) |
 
 Where a hosted link is not yet available, the dataset can be regenerated using the preprocessing scripts and documentation included with the project.
 
