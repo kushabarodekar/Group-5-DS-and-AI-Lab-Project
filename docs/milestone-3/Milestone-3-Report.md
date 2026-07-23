@@ -399,7 +399,7 @@ The hyperparameter tuning experiments demonstrated that reducing the learning ra
 
 ### **5.12 Comparison Plots**
 
-![Figure 4: Accuracy comparison across hyperparameter tuning experiments](./Milestone%203%20Report_media/media/image5.png)
+![Figure 4: Accuracy comparison across hyperparameter tuning experiments](./Images/image5.png)
 
 **FIGURE 4: Accuracy Comparison Across Experiments**
 
@@ -493,7 +493,7 @@ Risk Fusion Engine
 
 ### **5.18 Architecture Diagram**
 
-![Figure 5: MobileNetV3 architecture diagram](./Milestone%203%20Report_media/media/image4.png)
+![Figure 5: MobileNetV3 architecture diagram](./Images/image4.png)
 
 **FIGURE 5: MobileNetV3 Architecture Diagram**
 
@@ -576,7 +576,7 @@ mAP@50, mAP@50-95, Precision, Recall
 
 ### **6.9 Architecture Diagram**
 
-![Figure 6: YOLOv8n architecture diagram (Seat Belt & Phone Detection)](./Milestone%203%20Report_media/media/image2.png)
+![Figure 6: YOLOv8n architecture diagram (Seat Belt & Phone Detection)](./Images/image2.png)
 
 **FIGURE 6: YOLO Smoking/Drinking Architecture**
 
@@ -711,11 +711,11 @@ The Risk Fusion Engine aggregates outputs from all five modules using a weighted
 
 Driver Wellness Score = Σ (Module_Weight × Module_Risk_Score)
 
-Driver Wellness Score = ![Weighted risk score summation formula](./Milestone%203%20Report_media/media/image6.png)
+Driver Wellness Score = ![Weighted risk score summation formula](./Images/image6.png)
 
 where:
 
-> ![Module risk score normalization formula](./Milestone%203%20Report_media/media/image1.png)
+> ![Module risk score normalization formula](./Images/image1.png)
 
 Weights:
 
