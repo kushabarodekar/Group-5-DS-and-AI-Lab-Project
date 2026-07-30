@@ -548,7 +548,8 @@ The hyperparameter tuning experiments demonstrated that reducing the learning ra
 
 ### **5.12 Comparison Plots**
 
-Figure 4: Accuracy comparison across hyperparameter tuning experiments
+![FIGURE 4: Accuracy Comparison Across Experiments](Images/image5.png)
+
 
 **FIGURE 4: Accuracy Comparison Across Experiments**
 
