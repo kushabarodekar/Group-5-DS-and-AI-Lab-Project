@@ -1,0 +1,20 @@
+======================================================================
+Driver Wellness AI Training Summary
+======================================================================
+
+Device                : cuda
+GPU                   : Tesla T4
+Epoch                 : 1
+Train Loss            : 0.0811
+Validation Loss       : 2.8596
+Validation Accuracy   : 0.3178
+Validation Precision  : 0.2920
+Validation Recall     : 0.3178
+Validation F1 Score   : 0.2858
+
+Confusion Matrix
+646 593 1104
+929 208 1193
+918 67 1384
+
+Checkpoint : /kaggle/working/driver-wellness-ai-v2/outputs/checkpoints/driver_wellness_epoch1.pth
