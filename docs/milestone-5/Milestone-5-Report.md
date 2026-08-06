@@ -969,12 +969,12 @@ False positive vs. false negative trade-off: in this module, a false negative (a
 |  Macro avg  |   0.63   |  0.61  |   0.62   |  1,400  |
 | Weighted avg |   0.64   |  0.64  |   0.63   |  1,400  |
 
-![Test-set confusion matrix (After Fix), 1,400 windows](images/Image_1.png)
+![Test-set confusion matrix](images/Image_1.png)
 *Figure 1: Test-set confusion matrix (After Fix), 1,400 windows.*
 
 Average Precision (PR-AUC) per class: Normal \= 0.76, Talking \= 0.67, Yawning \= 0.61 — Yawning has the lowest AP, consistent with it being both the minority class and the hardest to separate from Talking's mouth-movement signature.
 
-!Per-class precision-recall curves on the test set, with average precision (AP) per class](images/Image_2.png)
+![Per-class precision-recall curves on the test set, with average precision per class](images/Image_2.png)
 *Figure 2: Per-class precision-recall curves on the test set, with average precision (AP) per class.*
 
 ## Comparison against the pre-correction (Milestone 3/4) baseline
