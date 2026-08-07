@@ -1440,7 +1440,7 @@ Confusion Matrix Analysis:
 | Visual Similarity        | turning ↔ other\_activities        | Hand movements resemble various activities                                 |
 | Phone Occlusion          | talking\_phone → other\_activities | Phone hidden from view, ambiguous posture                                  |
 
-**\[INSERT FIGURE 5: Error Analysis Visualization\]**
+
 
 ---
 
