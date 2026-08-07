@@ -2027,17 +2027,17 @@ The margins between the leading trials are narrow — several sit within **~0.01
 
 Although Milestone 5 performs no training, the recorded Milestone-4 training logs are surfaced here because they substantiate the validation-set comparison the milestone requires and show the model converged cleanly. The best validation **mAP@50–95 (0.442) is reached at epoch 57**; the remaining epochs add little. The loss curves fall smoothly for all three YOLO loss components (box, classification, DFL), and the validation metric curves plateau in the low-0.80s for mAP@50, matching the test-split result.
 
-![Training vs validation loss curves](images/img_4.png)
+![Training vs validation loss curves](images/img_10.png)
 
 *Figure 4.3 — Training vs validation loss for the three YOLO loss components; dotted line marks the best epoch (57).*
 
-![Validation metrics over training](images/img_5.png)
+![Validation metrics over training](images/img_11.png)
 
 *Figure 4.4 — Validation metrics over training. Precision, recall and mAP@50 plateau in the low-0.80s; mAP@50–95 near 0.44.*
 
 The cosine learning-rate schedule (cos_lr = True) that produced these curves is shown below: a short warm-up to lr0 = 0.001 followed by a smooth cosine decay to near-zero by epoch 80, which is what lets the loss settle without late-stage oscillation.
 
-![Cosine learning-rate schedule](images/img_6.png)
+![Cosine learning-rate schedule](images/img_13.png)
 
 *Figure 4.5 — Cosine learning-rate schedule used for the finalized 80-epoch run.*
 
@@ -2083,17 +2083,17 @@ Grouping the 46 failures by type is revealing. **Genuine cross-class confusion i
 
 Three complementary confusion views are provided. The **box-level matrix** (Ultralytics, Figure 5.2) is computed at the very low conf = 0.001 used for PR integration, so its heavy **background column** is an artifact of counting thousands of low-confidence candidate boxes, not a real defect — it should be read alongside the normalized version (Figure 5.3) which shows that, row-normalized, smoking and drinking are each recovered at **0.93 and 0.92** respectively.
 
-![Box-level confusion matrix](images/img_9.png)
+![Box-level confusion matrix](images/img_4.png)
 
 *Figure 5.2 — Box-level confusion matrix (conf = 0.001). The heavy background column is an artifact of low-confidence PR counting.*
 
-![Normalized box-level confusion matrix](images/img_10.png)
+![Normalized box-level confusion matrix](images/img_5.png)
 
 *Figure 5.3 — Normalized (row-wise) box-level confusion matrix. Smoking 0.93 and drinking 0.92 true-positive rates; cross-class confusion is minimal.*
 
 The **image-level matrix** (Figure 5.4), built at the operating threshold conf = 0.25 with a dedicated **"missed" bucket**, is the cleanest operating-point view. It confirms the story: smoking is recovered 191/201 with only 5 confusions and 5 misses; drinking is recovered 157/170 with just 1 confusion but **12 misses** — again localizing the weakness to drinking recall rather than to cross-class error.
 
-![Image-level confusion matrix](images/img_11.png)
+![Image-level confusion matrix](images/img_6.png)
 
 *Figure 5.4 — Image-level confusion matrix at the operating threshold (conf = 0.25), with a dedicated "missed / no-detection" column.*
 
@@ -2101,7 +2101,7 @@ The **image-level matrix** (Figure 5.4), built at the operating threshold conf =
 
 Plotting the confidence of correct vs incorrect top-detections shows how cleanly a threshold can separate them. **Correct detections cluster at high confidence** (the mass sits at 0.6–0.9), while the few wrong detections are sparse and spread thinly across the mid-confidence range. This clean separation is what makes a single confidence threshold an effective operating control, and it is the empirical basis for the threshold-tuning recommendation in §8.
 
-![Confidence distribution of correct vs incorrect detections](images/img_12.png)
+![Confidence distribution of correct vs incorrect detections](images/img_9.png)
 
 *Figure 5.5 — Confidence distribution of correct vs incorrect top-detections. Correct predictions dominate the high-confidence region.*
 
@@ -2135,7 +2135,7 @@ The held-out test split is drawn from the **same Roboflow source** as training, 
 
 The train-vs-validation loss gap over the 80-epoch run gives a direct read on overfitting. The gap stays small and stable through roughly epoch 55, then **widens after epoch ~70** as training loss keeps falling while validation loss flattens — the classic onset of mild overfitting. Crucially, the best validation mAP@50–95 was captured at epoch 57, **before** the gap opened, so the finalized checkpoint sits in the healthy region of the curve. This is consistent with the val≈test agreement in §4.5.
 
-![Generalization gap over training](images/img_13.png)
+![Generalization gap over training](images/img_12.png)
 
 *Figure 6.1 — Generalization gap (validation − training loss) per loss component. The gap widens after ~epoch 70; the best checkpoint (57) predates it.*
 
