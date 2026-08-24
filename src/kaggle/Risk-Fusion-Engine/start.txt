@@ -1,0 +1,31 @@
+# Quick start commands — Risk Fusion Engine (Final)
+
+## Lightning AI (primary)
+
+```bash
+pip install -r requirements.txt
+pip install --upgrade torch torchvision --index-url https://download.pytorch.org/whl/cu124
+python scripts/check_cuda.py
+export LD_LIBRARY_PATH="${PWD}/native_libs/linux-x86_64:${CONDA_PREFIX}/lib:${LD_LIBRARY_PATH:-}"
+python app.py
+```
+
+## Kaggle GPU fallback (M6 live demo backup)
+
+Settings → Accelerator → **GPU**, then:
+
+```bash
+pip install -r requirements.txt
+python scripts/check_cuda.py
+python run_kaggle_gradio_fallback.py
+```
+
+Share the **public Gradio URL** from the launcher log with evaluators.
+See docs/KAGGLE_FALLBACK.md for full steps.
+
+## Local (CPU smoke test)
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
